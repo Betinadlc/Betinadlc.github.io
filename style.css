@@ -1,0 +1,68 @@
+body{
+    background: aquamarine;
+    font-family: sans-serif
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+.nombre-red{
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+nav a:link img {
+    max-width: 30px;
+}
+
+.redes{
+    text-align: center;
+}
+
+.descripcion {
+    padding: 35px;
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    color: #333;
+    max-width: 360px;
+    margin: 0 auto;
+}
+ul li a:link {
+    background-color: #fff;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid #555;
+    box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.35);
+    color: #555;
+    text-align: center;
+}
+
+p{
+display: block;
+color: #333;
+margin: 0 auto;
+text-align: center;
+}
